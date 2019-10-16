@@ -30,8 +30,8 @@ function loader(){
 			y[3].children[0].className="display-2";
 			y[3].children[1].className="h1";
 
-			z[0].className="fas fa-chevron-circle-left red-text fa-2x";
-			z[1].className="fas fa-chevron-circle-right blue-text fa-2x";
+			z[0].className="fas fa-chevron-circle-left red-text fa-3x";
+			z[1].className="fas fa-chevron-circle-right blue-text fa-3x";
 		}
 
 	 }, 3000);
