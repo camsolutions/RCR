@@ -1,4 +1,4 @@
-var x;
+var x,y,z,a;
 function loader(){
 	setTimeout(function(){ 
 		document.getElementById('body').style.background ="none";
@@ -32,6 +32,11 @@ function loader(){
 
 			z[0].className="fas fa-chevron-circle-left red-text fa-3x";
 			z[1].className="fas fa-chevron-circle-right blue-text fa-3x";
+
+			a = document.getElementsByTagName('img');
+			a[0].src ="img/x2/Pres1.jpg";
+			a[1].src ="img/x2/Pres2.jpg";
+			a[2].src ="img/x2/Pres3.jpg";
 		}
 
 	 }, 3000);
