@@ -35,8 +35,11 @@ function loader(){
 
 			a = document.getElementsByTagName('img');
 			a[0].src ="img/x2/Pres1.jpg";
+			a[0].style.height ="50vh";
 			a[1].src ="img/x2/Pres2.jpg";
+			a[1].style.height ="50vh";
 			a[2].src ="img/x2/Pres3.jpg";
+			a[2].style.height ="50vh";
 		}
 
 	 }, 3000);
