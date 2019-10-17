@@ -39,7 +39,7 @@
 
 	<!--navegador begin-->
 		<!--Navbar-->
-<nav class="navbar fixed-top navbar-expand-xl navbar-dark white-text
+<nav class="navbar fixed-top navbar-expand-xl navbar-dark text-black
 " style="background: rgba(255,255,255,0.8); font-family: 'Merriweather Sans', sans-serif;">
 
   <!-- Navbar brand -->
@@ -48,7 +48,7 @@
   <!-- Collapse button -->
   <button class="navbar-toggler black-text" type="button" data-toggle="collapse" data-target="#basicExampleNav"
     aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon black-text"></span>
+    	<i class="fas fa-layer-group fa-2x"></i>
   </button>
 
   <!-- Collapsible content -->
@@ -57,18 +57,18 @@
     <!-- Links -->
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link black-text" href="#">INICIO
+        <a class="nav-link link black-text" href="#">INICIO
           <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link black-text" href="#">SOBRE MI</a>
+        <a class="nav-link link black-text" href="#">SOBRE MI</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link black-text" href="#">SERVICIOS</a>
+        <a class="nav-link link black-text" href="#">SERVICIOS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link black-text" href="#">CONTACTO</a>
+        <a class="nav-link link black-text" href="#">CONTACTO</a>
       </li>
 
      
@@ -117,24 +117,39 @@
 		<section style="font-family: 'Arima Madurai', cursive;">
 
 			<div class=" bg-dark w-100 text-justify p-2">
-				<div class="  mx-auto container-fluid text-white row">
-					<div class="content  mr-3 mt-3 col  border  rounded  container">
-						
-						<p class="h1">Experiencia</p>
-						<p>Manejo de varios frameworks front-end y back-end, cuento con los conocimientos para montar cualquier tipo de plataforma de manera facil e independiente.</p>
-					
+				<div class="  mx-auto container-fluid  row">
+
+						<div class="content  mr-3 mt-3 col  border  rounded  container black-text" style="background-image: url('img/x2/hover1.jpg'); background-size:cover;">
+	 				   		     		
+								<div class="rounded p-2 h-100" style="background: rgba(255,255,255,0.4);">	
+					 
+		 				 				<p class="h1">Experiencia</p>
+									<p>Manejo de varios frameworks front-end y back-end, cuento con los conocimientos para montar cualquier tipo de plataforma de manera facil e independiente.</p>
+								</div>	
+	 				
 					</div>
-					<div class="content mt-3 mr-3 col  border rounded container">
+
+					
+						
+					
+				
+					<div class="content mt-3 mr-3 col  border rounded container" style="background-image: url('img/x2/hover2.jpg'); background-size:cover;">
+						<div class="rounded p-3 h-100" style="background: rgba(255,255,255,0.4);">	
 						<p class="h1">Eficacia</p>
 						<p>Organizó un sistema de entrega monitorizado para usted con el fin de supervisar su proyecto en todo momento sin retrasos ni excusas.</p>
+						</div>
 					</div>
-					<div class="content mt-3 col mr-3  border rounded container">
+					<div class="content mt-3 col mr-3  border rounded container" style="background-image: url('img/x2/hover3.jpg'); background-size:cover;">
+						<div class="rounded p-3 h-100" style="background: rgba(255,255,255,0.7);">	
 						<p class="h1">Practico</p>
 						<p>Opciones de autogestión sin importar la tecnología utilizada para realizar dicho trabajo contará con un sistema de administración si así lo desea.</p>
+						</div>
 					</div>
-					<div class="content mt-3 col  border rounded  container">
+					<div class="content mt-3 col  border rounded  container" style="background-image: url('img/x2/hover4.jpg'); background-size:cover;">
+						<div class="rounded p-3 h-100" style="background: rgba(255,255,255,0.4);">	
 						<p class="h1">Sencillo</p>
 						<p>No se subestima ni menosprecia todos los encargos que pudiese pedir, usted diga que es lo deseado y estará hecho. Diseñado de forma tal que pueda utilizarla sin inconvenientes.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -180,13 +195,16 @@
   Code for developer
 
 */
+.content:hover{
+
+}
 
 .nav-link:hover{
 	background: rgba(0,0,0,0.2);
 }
   html, body {
     width: 100%;
-  height: 100%;
+
   background: #111;
 }
 
