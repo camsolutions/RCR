@@ -76,7 +76,6 @@ function navs(){
 		if (scrollY == 0) {
 			nav.style.background="rgba(255,255,255,0.8)";
 		}
-		document.getElementsByClassName("nav-link")[0].setAttribute("hover","background: white")
 	}
 
 }
