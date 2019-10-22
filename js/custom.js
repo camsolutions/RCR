@@ -64,6 +64,14 @@ function loader(){
 			k[2].className= "modal-title h1";
 			k[3].className= "modal-title h1";
 			k[4].className= "modal-title h1";
+
+			k = document.getElementsByClassName("modal-footer");
+			k[0].children[0].children[0].className = "h2";
+			k[1].children[0].children[0].className = "h2";
+			k[2].children[0].children[0].className = "h2";
+			k[3].children[0].children[0].className = "h2";
+			k[4].children[0].children[0].className = "h2";
+
 			document.getElementsByClassName("navbar-brand")[0].className="p-3 h2 black-text";
 			document.getElementsByTagName("footer")[0].className="h2";
 		}
