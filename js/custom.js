@@ -1,4 +1,4 @@
-var x,y,z,a,nav;
+var x,y,z,a,k,nav;
 nav = document.getElementsByTagName('nav')[0];
 function loader(){
 	setTimeout(function(){ 
@@ -18,7 +18,7 @@ function loader(){
 		document.getElementById('body').className ="w3-animate-opacity";
 		if ( screen.width < 700 ) {
 			document.getElementsByClassName("row")[0].className = "mx-auto container-fluid ";
-
+			 k = document.getElementsByClassName("modal-body");
 			 x = document.getElementsByClassName("display-1");
 			 y = document.getElementsByClassName("content");
 			 z = document.getElementsByClassName("fas");
@@ -52,6 +52,18 @@ function loader(){
 			a[2].src ="img/x2/Pres3.jpg";
 			a[2].style.height ="50vh";
 
+			k[0].children[0].className ="h2";
+			k[1].children[0].className ="h2";
+			k[2].children[0].className ="h2";
+			k[3].children[0].className ="h2";
+			k[4].children[0].className ="h2";
+
+			k = document.getElementsByClassName("modal-title");
+			k[0].className= "modal-title h1";
+			k[1].className= "modal-title h1";
+			k[2].className= "modal-title h1";
+			k[3].className= "modal-title h1";
+			k[4].className= "modal-title h1";
 			document.getElementsByClassName("navbar-brand")[0].className="p-3 h2 black-text";
 			document.getElementsByTagName("footer")[0].className="h2";
 		}
